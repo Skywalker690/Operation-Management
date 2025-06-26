@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: operation-backend
+    env: python
+    region: asia-southeast1
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: ./backend/start.sh
+    rootDir: backend

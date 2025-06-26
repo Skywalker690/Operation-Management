@@ -24,3 +24,9 @@ python-multipart>=0.0.9
 jq>=1.6.0
 typer>=0.9.0
 firebase-admin==6.5.0
+
+fastapi
+uvicorn
+python-multipart
+pydantic
+
